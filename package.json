@@ -1,0 +1,40 @@
+{
+  "name": "react-native-wechat-mini",
+  "version": "1.0.0",
+  "description": "react-native library for wechat app, add miniprogram model",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:shanchaojie/react-native-wechat.git"
+  },
+  "keywords": [
+    "wechat",
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "mini",
+    "miniprogram"
+  ],
+  "dependencies": {
+    "events": "1.0.2"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "Chaojie Shan<shanchaojie1@gmail.com>",
+  "contributors": [
+    {
+      "name": "Chaojie Shan",
+      "email": "shanchaojie1@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanchaojie/react-native-wechat/issues"
+  },
+  "homepage": "https://github.com/shanchaojie/react-native-wechat#readme"
+}
