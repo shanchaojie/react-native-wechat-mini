@@ -99,10 +99,10 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
     }
 
     @ReactMethod
-    public void registerApp(String appid) {
+    public void registerApp(String appid, Callback callback) {
         this.appId = appid;
         api = WXAPIFactory.createWXAPI(this.getReactApplicationContext().getBaseContext(), appid, true);
-        api.registerApp(appid);
+        callback.invoke(null, api.registerApp(appid));
     }
 
     @ReactMethod
@@ -111,7 +111,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             callback.invoke(NOT_REGISTERED);
             return;
         }
-        callback.invoke(api.isWXAppInstalled());
+        callback.invoke(null,api.isWXAppInstalled());
     }
 
     @ReactMethod
@@ -120,7 +120,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             callback.invoke(NOT_REGISTERED);
             return;
         }
-        callback.invoke(api.getWXAppSupportAPI());
+        callback.invoke(null,api.getWXAppSupportAPI());
     }
 
     @ReactMethod
@@ -129,7 +129,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             callback.invoke(NOT_REGISTERED);
             return;
         }
-        callback.invoke(api.getWXAppSupportAPI());
+        callback.invoke(null,api.getWXAppSupportAPI());
     }
 
     @ReactMethod
@@ -138,7 +138,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             callback.invoke(NOT_REGISTERED);
             return;
         }
-        callback.invoke(api.openWXApp());
+        callback.invoke(null,api.openWXApp());
     }
 
     @ReactMethod
@@ -150,7 +150,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
         SendAuth.Req req = new SendAuth.Req();
         req.scope = scope;
         req.state = state;
-        callback.invoke(api.sendReq(req));
+        callback.invoke(null,api.sendReq(req));
     }
 
     @ReactMethod
