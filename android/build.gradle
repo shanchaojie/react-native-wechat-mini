@@ -27,6 +27,7 @@ allprojects {
 }
 
 dependencies {
-  api 'com.facebook.react:react-native:+'
-  api files('libs/libammsdk.jar')
+  implementation 'com.facebook.react:react-native:+'
+  implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+  implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
 }

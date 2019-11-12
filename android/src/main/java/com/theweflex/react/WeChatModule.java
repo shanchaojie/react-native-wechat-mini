@@ -1,12 +1,12 @@
-package com.chuangpai.rctwechat;
+package com.theweflex.react;
 
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
 
 import com.facebook.common.executors.UiThreadImmediateExecutorService;
 import com.facebook.common.references.CloseableReference;
@@ -62,7 +62,7 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
 
     @Override
     public String getName() {
-        return "RCPWeChat";
+        return "RCTWeChat";
     }
 
     /**

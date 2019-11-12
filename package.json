@@ -1,15 +1,48 @@
 {
-  "name": "react-native-wechat-mini",
-  "version": "1.0.0",
+  "_from": "react-native-wechat-mini",
+  "_id": "react-native-wechat-mini@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Lxq2wIRBA681ozw7tT9VfEqf+y8=",
+  "_location": "/react-native-wechat-mini",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-wechat-mini",
+    "name": "react-native-wechat-mini",
+    "escapedName": "react-native-wechat-mini",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-wechat-mini/download/react-native-wechat-mini-1.0.0.tgz",
+  "_shasum": "2f1ab6c0844103af35a33c3bb53f557c4a9ffb2f",
+  "_spec": "react-native-wechat-mini",
+  "_where": "/Users/shanchaojie/Desktop/test/TeatDemo",
+  "author": {
+    "name": "Chaojie Shan",
+    "email": "shanchaojie1@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shanchaojie/react-native-wechat-mini/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Chaojie Shan",
+      "email": "shanchaojie1@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "events": "1.0.2"
+  },
+  "deprecated": false,
   "description": "react-native library for wechat app, add miniprogram model",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:shanchaojie/react-native-wechat-mini.git"
-  },
+  "homepage": "https://github.com/shanchaojie/react-native-wechat-mini#readme",
   "keywords": [
     "wechat",
     "react",
@@ -19,22 +52,18 @@
     "mini",
     "miniprogram"
   ],
-  "dependencies": {
-    "events": "1.0.2"
-  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-wechat-mini",
   "peerDependencies": {
     "react-native": ">=0.40"
   },
-  "author": "Chaojie Shan<shanchaojie1@gmail.com>",
-  "contributors": [
-    {
-      "name": "Chaojie Shan",
-      "email": "shanchaojie1@gmail.com"
-    }
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shanchaojie/react-native-wechat-mini/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shanchaojie/react-native-wechat-mini.git"
   },
-  "homepage": "https://github.com/shanchaojie/react-native-wechat-mini#readme"
+  "scripts": {
+    "test": "echo 1"
+  },
+  "version": "1.0.1"
 }
