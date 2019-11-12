@@ -313,5 +313,5 @@ Sends request for proceeding payment, then returns an object:
 ## Installation
 
 ```sh
-$ npm install git+https://github.com/shanchaojie/react-native-wechat.git
+$ npm install react-native-wechat-mini 
 ```

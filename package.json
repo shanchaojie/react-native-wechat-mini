@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shanchaojie/react-native-wechat.git"
+    "url": "git+ssh://git@github.com:shanchaojie/react-native-wechat-mini.git"
   },
   "keywords": [
     "wechat",
@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shanchaojie/react-native-wechat/issues"
+    "url": "https://github.com/shanchaojie/react-native-wechat-mini/issues"
   },
-  "homepage": "https://github.com/shanchaojie/react-native-wechat#readme"
+  "homepage": "https://github.com/shanchaojie/react-native-wechat-mini#readme"
 }
