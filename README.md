@@ -2,7 +2,7 @@
 
 # React-Native-Wechat
 
-公司业务需要在react-native-weshat的基础上添加调起小程序的功能.
+公司业务需要在react-native-wechat的基础上添加调起小程序的功能.
 源项目链接:https://github.com/yorkie/react-native-wechat
 
 [React Native] bridging library that integrates WeChat SDKs:
